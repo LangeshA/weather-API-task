@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e2eefe;
+}
+#title {
+  font-weight: bolder;
+  margin: 50px 0px 20px 0px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.2);
+  transform: translateY(-1rem);
+  backdrop-filter: blur(1.5rem);
+}
+.card-header {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#country {
+  font-weight: bolder;
+}
+#flag {
+  border-radius: 10px;
+  height: 200px;
+}
+.card-text p {
+  padding: 5px;
+  margin: 5px 0px -10px 0px;
+  font-weight: lighter;
+}
+.buttonstyle {
+  margin: 20px 0px 10px 0px;
+  border: none;
+  border-radius: 20px;
+  background-color: #7da6dd;
+  color: black;
+  font-weight: bolder;
+}
+#weatherReportdivcss p {
+  padding: 5px;
+  margin: -10px 0px -5px 0px;
+  font-weight: lighter;
+}
+#weatherReportdivcss {
+  padding: 5px;
+  margin: -20px 0px -5px 0px;
+}
+#weatherReportdivcss h4 {
+  font-weight: bolder;
+}
